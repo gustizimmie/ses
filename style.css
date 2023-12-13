@@ -1,0 +1,35 @@
+		*{
+			color: blue;
+			border: 2px solid red;
+		}
+		h1{
+			color: green;
+		}
+		.red-text,#yellow-text{
+			font-size: 20px;
+			text-align: center;
+			background-color: black;
+		}
+		.red-text{
+			color: red;
+		}
+		#yellow-text{
+			color: yellow;
+		}div p{
+			color: red;
+		}
+		div > div > p{
+			font-weight: bold;
+		}
+		.subbagian{
+			font-size: 30px;
+		}
+		.subbagian.header{
+			color: #8A2BE2;
+		}
+		.subbagian#teks{
+			color: brown;
+		}
+		p:hover{
+			background-color: aqua;
+		}

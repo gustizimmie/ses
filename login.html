@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style type="text/css">
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 300px;
+    padding: 16px;
+    background-color: #fff;
+    margin: 100px auto;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="captcha">Captcha</label>
+            <input type="text" id="captcha" name="captcha" required>
+            <img src="captcha.png" alt="Captcha">
+            
+            <button type="submit">Login</button>
+        </form>
+        <p>Lupa Password? <a href="#">Klik disini</a></p>
+    </div>
+<div></div>
+
+</body>
+</html>
